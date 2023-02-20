@@ -1,4 +1,5 @@
 import React from "react"
+// import mainlogo from '/Users/adrien/code/BobZiroll/myfirstreactapp/src/logo512.png';
 
 export default function Main() {
   return (
@@ -11,6 +12,7 @@ export default function Main() {
           <li>Is maintained by Meta/Facebook</li>
           <li>Powers thousands of enterprise apps, including mobile</li>
         </ul>
+        {/* <img src={mainlogo} alt="" className="main--logo"/> */}
     </main>
   );
 }
